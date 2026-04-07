@@ -22,8 +22,8 @@ import plotly.graph_objects as go
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR   = os.path.join(BASE_DIR, "..", "data", "aggregated")
-MODEL_PATH = os.path.join(BASE_DIR, "..", "outputs", "models", "maude_classifier.pkl")
+DATA_DIR   = os.path.join(BASE_DIR, "data", "aggregated")
+MODEL_PATH = os.path.join(BASE_DIR, "outputs", "models", "maude_classifier.pkl")
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 events_by_year     = pd.read_csv(os.path.join(DATA_DIR, "events_by_year.csv"))
