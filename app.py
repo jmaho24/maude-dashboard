@@ -50,7 +50,7 @@ BADGE_COLORS = {
 
 EXAMPLE_NARRATIVES = [
     ("Malfunction", "The infusion pump displayed an occlusion alarm and ceased delivery of the programmed medication dose. The device was removed from service and returned to the manufacturer for inspection."),
-    ("Injury",      "The patient sustained a laceration to the left hand while handling the device during routine use. The wound required suturing. The device was recovered and quarantined for investigation."),
+    ("Injury",      "Patient was hospitalized following device use. The patient sustained internal hemorrhaging requiring emergency surgical intervention. The device was identified as the probable cause of injury."),
     ("Death",       "The patient was found unresponsive approximately four hours after device implantation. Emergency services were contacted. The patient was pronounced deceased at the hospital. The device was explanted and sent for analysis."),
 ]
 
